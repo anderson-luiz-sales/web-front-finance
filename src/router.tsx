@@ -4,11 +4,9 @@ import Home from './pages/Home';
 
 export const Router = () => {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/financial-movement" element={<FinancialMovement />} />
-            </Routes>
-        </BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/financial" element={<FinancialMovement />} />
+        </Routes>
     );
 }

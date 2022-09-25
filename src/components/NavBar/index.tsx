@@ -1,35 +1,40 @@
 import * as C from './styles';
 import { HouseFill, CashCoin, Calendar3, Clipboard2Data } from 'react-bootstrap-icons';
-// import { Link } from 'react-router-dom'
+import { BrowserRouter, Link } from 'react-router-dom';
 
 function NavBar() {
 
    return (
       <C.Container>
+         
          <C.IconHouse>
             <HouseFill />
          </C.IconHouse>
-         <C.TitleHome>
-            Home
-         </C.TitleHome>
+         <C.StyledLink to="/">
+               Home
+         </C.StyledLink>
+
          <C.IconCashCoin>
             <CashCoin />
          </C.IconCashCoin>
-         <C.TitleFinance>
+         <C.StyledLink to="/financial">
             Financeiro
-         </C.TitleFinance>
+         </C.StyledLink>
+
          <C.IconCalendar>
             <Calendar3 />
          </C.IconCalendar>
-         <C.TitleCalendar>
+         <C.StyledLink to="">
             Agenda
-         </C.TitleCalendar>
+         </C.StyledLink>
+
          <C.IconCashClipboard2Data>
             <Clipboard2Data />
          </C.IconCashClipboard2Data>
-         <C.TitleReport>
+         <C.StyledLink to="">
             Relatório
-         </C.TitleReport>
+         </C.StyledLink>
+
       </ C.Container>
    );
 }
