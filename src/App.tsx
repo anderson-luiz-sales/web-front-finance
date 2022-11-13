@@ -7,8 +7,8 @@ function App() {
   return (
     <div className='App'>
       <GlobalStyle />
-      <Router />
       <NavBar />
+      <Router />
       <Footer />
     </div>
   );

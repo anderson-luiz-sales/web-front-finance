@@ -14,30 +14,21 @@ export const BoxValue = styled.div`
 `;
 
 export const Title = styled.div`
-  padding-left: 90px;
-  padding-top: 10px;
+  margin: 0px 0px 0px 90px;
   color: #7c7673;
   font-size: 15px;
 `;
 
 export const Value = styled.div`
-  padding-left: 100px;
-  padding-top: 10px;
+  margin: 0px 0px 0px 90px;
   color: #141607;
   font-weight: bold;
   font-size: 15px;
 `;
 
 export const CircleIcon = styled.div`
-  background-color: #9b0039;
-  width: 45px;
-  height: 45px;
-  font-weight: bold;
-  color: #FFF;
+  color: red;
   font-size: 40px;
-  text-align: center;
-  border-radius: 10px;
-  margin-left: 20px;
-  margin-top: -20px;
+  margin: 0px 0px 0px 20px;
   position: absolute;
 `;

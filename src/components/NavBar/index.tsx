@@ -1,6 +1,5 @@
 import * as C from './styles';
 import { HouseFill, CashCoin, Calendar3, Clipboard2Data } from 'react-bootstrap-icons';
-import { BrowserRouter, Link } from 'react-router-dom';
 
 function NavBar() {
 
